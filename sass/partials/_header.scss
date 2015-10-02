@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  background-image: url('../images/mountains.jpg');
+  background-image: url('');
   height: 200px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -10,7 +10,7 @@ header {
     width: 100%;
     height: 100%;
     position: absolute;
-    @include linearGradient($blue, $yellow);
+    @include linearGradient($darg-grey, $grey);
     opacity: .8;
   }
 }
